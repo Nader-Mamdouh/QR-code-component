@@ -1,0 +1,53 @@
+.maindiv {
+  display: grid;
+  grid-template-rows: 350px 250px;
+  border: solid 1px white;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 375px;
+  height: 600px;
+}
+.img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.qrimg {
+  width: 335px;
+  height: 90.9%;
+  border-radius: 20px;
+}
+
+.pargraph1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
+
+.pargraph2 {
+  font-family: "Outfit", sans-serif;
+  color: hsl(219, 10%, 55%);
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+.con {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  text-align: center;
+}
+.body {
+  background-color: hsl(219, 18%, 66%);
+  border: solid 1px hsl(219, 18%, 66%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 1400px;
+  height: 720px;
+}
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
